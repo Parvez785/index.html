@@ -1,0 +1,220 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Dosis;
+    font-weight: 300;
+}
+.container{
+    background-color:#016cc7;
+    display: flex;
+    flex-direction: row;
+    height:600px;
+}
+.col-1{
+    width:55%;
+}
+
+.image-rocket{
+    margin:auto auto;
+    width:45%;
+    }
+.logo img{
+    max-width:180px;
+    margin:60px 0 0 110px;
+    
+}
+
+h1.heading-1 {
+    padding:50px 0 0 110px;
+    color:white;
+    font-family: Dosis;
+    font-weight: 200;
+}
+h3.heading-1 {
+    padding:50px 0 0 110px;
+    color:white;
+    font-family: Dosis;
+    font-weight: 200;
+}
+h4.heading-1{
+    padding:50px 0 0 110px;
+    color:white;
+    font-family: Dosis;
+    font-weight: 200;
+
+}
+.btn{
+    padding:50px 0 0 100px;
+}
+.btn button{
+    padding:13px 40px;
+    border-radius: 5px;
+    background-color: #DD5138;
+    color:#FFF;
+    border:transparent;
+    font-size: 15px;
+}
+.heading{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 30px;
+    font-size: 30px;
+}
+.card-main{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    width:80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+svg.svg-inline--fa.fa-ticket {
+    font-size: 30px;
+}
+svg.svg-inline--fa.fa-microphone-lines {
+font-size: 30px;
+}
+svg.svg-inline--fa.fa-globe {
+    font-size: 30px; 
+}
+h2{
+    color:#404142;
+}
+h5{
+    font-size: 24px;
+    color:#404142;
+    margin-top: 7px;
+}
+p.par {
+    font-size: 13px;
+    text-align: center;
+    letter-spacing: 0.8px;
+    padding:10px 70px;
+    color:#404142;
+}
+
+.speakers-section h2{
+    padding-top: 60px;
+    margin-bottom: 30px;;
+        font-size: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.card-section-main{
+display: flex;
+justify-content: center;
+text-align: center;
+}
+.card-hero-image img{
+    width:100px;
+
+}
+.card-heading h3{
+    color:#404142;
+    text-align: center;
+    margin-right: 15px;
+}
+    .card-heading {
+        margin-top: 5px !important;
+    }
+
+.social-links ul{
+    list-style-type: none;
+}
+ul li{
+    display: inline;
+    padding-right:25px;
+    color: #3b5998;
+}
+
+.card-main-2{
+    margin-top:25px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+}
+
+.Tickets-section {
+    background-color: #fcd93b;
+    margin-top:18px;
+    height:350px;
+    
+}
+h2.header {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+}
+h3.sale {
+    padding-bottom: 10px;
+    color:#404142;
+    font-size: 24px;
+}
+p.pricing {
+   
+        font-size: 64px;
+        color: #dd5138;
+    
+}
+
+.btn-red{
+    margin-top:10px;
+    padding:8px 20px;
+    border-radius: 5px;
+    background-color: #DD5138;
+    color:#FFF;
+    border:transparent;
+    font-size: 15px;
+}
+
+.card-section-pricing{
+    margin-top:10px;
+    float:left;
+    width:50%;
+    text-align: center;
+}
+.card-section-pricing:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  h1.Event {
+    text-align: center;
+    margin-top:10px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #2a2a2a;
+    height:120px;
+}
+.copyright{
+    margin: auto 0 auto 30px;
+}
+.footer-links{
+    margin: auto 0 auto 30px;
+}
+  li a{
+    color:#fcd93b;
+    text-decoration: none;
+}
+
+@media screen  and (min-width:320px) and (max-width:767px) {
+.container{
+    display: flex;
+    flex-direction: column;
+    
+}
+.col-1{
+    width:100%;
+}
+.image-rocket{
+    width:100%;
+}
+    
+}
